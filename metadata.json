@@ -1,0 +1,13 @@
+{
+  "author" : "Jascha Casadio",
+  "description": "The official Debian Jessie image with GNU's gcc and make to allow building and installing packages from the source without relying on APT.",
+  "issues_url": "https://github.com/jaschac/docker-debian-gcc/issues",
+  "license": "Apache-2.0",
+  "name": "debian-gcc",
+  "project_page": "https://github.com/jaschac/docker-debian-gcc",
+  "source": "https://github.com/jaschac/docker-debian-gcc",
+  "summary": "Debian Jessie with GNU's gcc and make",
+  "tags":["gcc", "make"],
+  "version": "1.0.0"
+}
+
