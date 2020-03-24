@@ -1,5 +1,5 @@
 FROM debian
 MAINTAINER APN
 RUN apt-get update -y -qq
-RUN apt-get install -y -qq latexmk texlive-full
+RUN apt-get install -y -qq latexmk texlive-full texlive-generic-extra texlive-formats-extra texlive-fonts-extra texlive-science aspell aspell-en aspell-de texlive-bibtex-extra biber
 RUN apt-get clean
